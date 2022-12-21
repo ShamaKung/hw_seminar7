@@ -17,6 +17,6 @@ int b = Convert.ToInt32(Console.ReadLine());
 if (a > 3 && b > 4) Console.WriteLine("такого числа нет");
 else
 {
-object c = array.GetValue(a, b);
-Console.WriteLine(c);
+    object c = array.GetValue(a, b);
+    Console.WriteLine(c);
 }
